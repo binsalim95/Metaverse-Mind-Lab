@@ -17,6 +17,6 @@ I vectorized the cleaned text using the TF IDF Vectorizer and then ran the vecto
 
 Aspects that could be improved:
 
-In next iterations, we could try stemming and lemmatizing the words before vectorization. We can use different word Embedding procedures (LDA, word2vec, seq2vec etc) to see if different word vectors will produce better results. We can also have the model include the source of the news and the title of the article as well in its evaluation. We can also run a sentiment analysis and use a subjectivity score as well on the reviews and take those into account into the next model. We can also have multiple models running on top of the XGBoost forrest to see if we see improvements in performance.
+In next iterations, we could try stemming and lemmatizing the words before vectorization. We can use different word Embedding procedures (word2vec, seq2vec etc) to see if different word vectors will produce better results. We can also have the model include the source of the news and the title of the article as well in its evaluation. We can also run a sentiment analysis and use a subjectivity score as well on the reviews and take those into account into the next model. We can also have multiple models running on top of the XGBoost forrest to see if we see improvements in performance.
 
 
